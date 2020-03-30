@@ -26,6 +26,7 @@ a {
 }
 
 ul {
+    display:inline-block;
     list-style-type: none;
     width: 100%;
     font-family: arial, san-serif;
@@ -79,13 +80,12 @@ button:hover {
     opacity:1;
 }
 
-/*For the bottom of webpage*/
-#fivefingers {
-    width:45px;
-    height:45px;
+footer {
+    width:100%;
+    background-color:lightgrey;
+    position: fixed;
+    z-index: 0;
+    bottom: 5px;
 }
 
-#fivelink {
-    margin: 20px 0;
-    text-align:center;
-}
+
