@@ -1,0 +1,91 @@
+/*Something that allows ordering*/
+#main {
+    display: flex; 
+    flex-direction: column;
+    text-align:center;
+}
+
+div {
+    display: block;
+}
+
+a:visited {
+    color:#800080;
+}
+
+a {
+    color:#0000FF;
+}
+
+#htpl a {
+    margin: 7px 0 0 10px;
+    display: inline-block;
+    margin-left: 15px;
+    color: black;
+    opacity:0.75;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    font-family: arial, san-serif;
+}
+
+li{
+    float:left;
+}
+
+li a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#googleimage {
+    height: 92px;
+    width: 272px;
+    margin:auto;
+    padding-top:109px;
+}
+
+
+/*For Search Features*/
+input:hover {
+    opacity:1;
+    box-shadow: 10px;
+}
+
+input {
+    opacity:0.75;
+}
+
+#search {
+    border-radius:50px;
+    width:50em;
+    height:3em;
+    margin: 2em 0;
+}
+
+button {
+    margin: 20px 5px 20px 5px;
+    height:36px;
+    min-width: 54px;
+    border-radius:5px;
+    opacity:0.5;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/*For the bottom of webpage*/
+#fivefingers {
+    width:45px;
+    height:45px;
+}
+
+#fivelink {
+    margin: 20px 0;
+    text-align:center;
+}
